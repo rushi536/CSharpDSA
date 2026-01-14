@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "dotnet: build"
+		},
+		{
+			"type": "dotnet",
+			"task": "build /Users/39211/Rushi_docs/CSharpDSA/CSharpDSA.csproj",
+			"file": "/Users/39211/Rushi_docs/CSharpDSA/CSharpDSA.csproj",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "dotnet: build /Users/39211/Rushi_docs/CSharpDSA/CSharpDSA.csproj"
+		}
+	]
+}
