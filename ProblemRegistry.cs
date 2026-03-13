@@ -5,6 +5,9 @@ using Lists;
 using Dictionary;
 using Pointers;
 using Recursion;
+using BinarySearch;
+using StackQueue;
+using LinkedList;
 
 public static class ProblemRegistry
 {
@@ -32,6 +35,17 @@ public static class ProblemRegistry
              { 19, ("Variable size sliding window", new VariableSizeSlidignWindow()) },
              { 20, ("POinter ", new MinimumWindowSubstring()) },
              { 21, ("Container With Most Water ", new ContainerWithMostWater()) },
-             { 22, ("Reverse string using Recursion ", new ReverseString()) }
+             { 22, ("Reverse string using Recursion ", new ReverseString()) },
+             { 23, ("Backtracking ", new BinaryBackTracking()) },
+             { 24, ("Binary search first Occurance ", new FirstAndLastOccurance()) },
+             { 25, ("Find Peak Binary search ", new FindPeak()) },
+             { 26, ("Binary Tree  ", new InOrderTraversal()) },
+             { 27, ("Stack  ", new Stack()) },
+             { 28, ("Linked List  ", new TraversalInLL()) },
+             { 29, ("Reverse Linked List  ", new ReverseLinkedList()) },
+             { 30, ("Findmiddle node Linked List  ", new FindMiddleNodeLinkedList()) },
+             { 31, ("Detect cycle in Linked List  ", new DetectCycleLinkedList()) }
+
+             
         };
 }
