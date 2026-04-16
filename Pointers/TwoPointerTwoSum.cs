@@ -1,24 +1,32 @@
+using System.Runtime;
+
 namespace Pointers
 {
     public class TwoPointerTwoSum : IProblem
     {
         public void Run()
         {
-           int[] nums= {2,7,11,15};
-           int left=0;
-           int right=nums.Length-1;
-           int tragetSum=9;
-           for(int i = 0; i < nums.Length; i++)
+            int[] nums = { 2, 7, 11, 15 };
+            int left = 0;
+            int right = nums.Length - 1;
+            int target = 9;
+            while (left < right)
             {
-               if(nums[left]+nums[right]>tragetSum)
+                int sum = nums[left] + nums[right];
+                if (sum > target)
                 {
                     right--;
                 }
-                else if(nums[left]+nums[right]<tragetSum)
+                else if (sum < target)
                 {
                     left++;
                 }
-            } 
+                else
+                {
+                    Console.WriteLine($"{left},{right}");
+                    break;
+                }
+            }
         }
     }
 }

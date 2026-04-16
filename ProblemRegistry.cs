@@ -8,7 +8,7 @@ using Recursion;
 using BinarySearch;
 using StackQueue;
 using LinkedList;
-
+using BinaryTree;
 public static class ProblemRegistry
 {
     public static Dictionary<int, (string Name, IProblem Problem)> Problems =
@@ -44,7 +44,8 @@ public static class ProblemRegistry
              { 28, ("Linked List  ", new TraversalInLL()) },
              { 29, ("Reverse Linked List  ", new ReverseLinkedList()) },
              { 30, ("Findmiddle node Linked List  ", new FindMiddleNodeLinkedList()) },
-             { 31, ("Detect cycle in Linked List  ", new DetectCycleLinkedList()) }
+             { 31, ("Detect cycle in Linked List  ", new DetectCycleLinkedList()) },
+             { 32, ("Level Order Traversal  ", new LevelOrderTraversal()) }
 
              
         };
